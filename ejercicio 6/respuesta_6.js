@@ -1,17 +1,17 @@
 const persona = {
   nombre: "Jhornan",
   celular: 77584562,
-  estudiante: true
+  estudiante: true,
 }
 
 const curso = {
   asignatura : "Fisica",
   creditos: 3,
-  aprobados:true
+  aprobados:true,
 }
 
 const pais ={
   nombre : "España",
   idioma : 2,
-  primermundista : true
+  primermundista : true,
 }
