@@ -1,0 +1,12 @@
+{
+"productos": [
+{"nombre":"Alacena", "codigo": 54, "tipo": "Lacteo"},
+{"nombre":"Cerdeña", "codigo": 80, "tipo": "Embutido"},
+{"nombre":"Nesquik", "codigo": 54, "tipo": "Cereal"}
+],
+"ventas" :[
+{"cantidad": 500, "destino": "Metro" },
+{"cantidad": 1000, "destino": "Plaza Vea" },
+{"cantidad": 850, "destino": "Tootus" }
+]
+}
