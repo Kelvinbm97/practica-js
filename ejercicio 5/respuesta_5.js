@@ -25,7 +25,13 @@ console.log(total);
 
 //enunciado c
 
- const contador = tasks1.filter(item => {
-   return item.name.includes("W")
- })
-  console.log(contador)
+var contador = [];
+tasks1.forEach((i) =>{
+  if(i.name.toUpperCase().indexOf("W")=== 0){
+    contador.push(i)
+  }
+})
+console.log(contador);
+
+
+
