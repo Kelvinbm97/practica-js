@@ -39,11 +39,6 @@
 
   // enunciado f
 
-  const mayorDuracion = tasks.filter(task => {
-    if (task.duration > 240) {
-      return true;
-    } else {
-      return false;
-    }
+  const mayorDuracion = tasks.filter(task => { task.duration > 240
   });
-
+console.log(mayorDuracion);
