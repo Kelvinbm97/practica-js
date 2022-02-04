@@ -31,6 +31,7 @@ tasks1.forEach((i) =>{
     contador.push(i)
   }
 })
+
 console.log(contador);
 
 
