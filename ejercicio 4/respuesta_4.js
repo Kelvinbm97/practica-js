@@ -18,12 +18,20 @@
   console.log(soloNombres);
 
   // enunciado b
-  const soloDuracion = tasks.map((tasks)=> tasks.duration);
-  console.log(soloDuracion);
+  const soloDuracion = tasks.map((i) => i.duration);
+  const total = soloDuracion.reduce((a, b) => a + b);
+  console.log(total);
+
 
   // // enunciado c
-   const tareaMenorDuracion = tasks.filter((tasks)=> tasks.duration <= 60);
-  console.log(tareaMenorDuracion);
+  const valor = tasks.map((i)=> i.duration);
+  const menorTareaDuracion = Math.min(...valor);
+  console.log(menorTareaDuracion);
+
+  // // enunciado d
+  const item = tasks.map((i)=> i.duration);
+  const mayorTareaDuracion = Math.max(...valor);
+  console.log(mayorTareaDuracion);
 
   // enunciado e
    const menorDuracion = tasks.filter(tasks => tasks.duration < 140);
@@ -31,11 +39,12 @@
 
   // enunciado f
 
+
   const mayorDuracion = tasks.filter(task => {
-    if (task.duration >= 240) {
-      return true;
+    if (task.duration > 240) {
+      console.log("true");
     } else {
-      return false;
+      console.log("false");
     }
-  });
+  })
   console.log(mayorDuracion);
